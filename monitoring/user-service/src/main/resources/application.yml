@@ -15,8 +15,4 @@ eureka:
 
 spring:
   application:
-    name: employee-service
-
-logging:
-  level:
-    com.self.sprintboot.learning.employee: DEBUG
+    name: user-service
