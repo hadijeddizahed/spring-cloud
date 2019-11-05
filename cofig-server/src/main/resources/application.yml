@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hadijeddizahed/spring-cloud.git
+
+server:
+  port: 8888
+
+welcome:
+  message: Hello World!
+
+
