@@ -5,12 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/hadijeddizahed/spring-cloud.git
+          uri: https://github.com/hadijeddizahed/config-repository.git
 
 server:
   port: 8888
 
-welcome:
-  message: Hello World!
 
 
