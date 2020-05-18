@@ -14,7 +14,7 @@ public class SpringGatewayConfig {
     public RouteLocator gatewayRoutes(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route(r -> r.path("/product/**")
-                        .uri("https://localhost:8081/")
+                        .uri("http://localhost:8081/")
                         .id("productService"))
                 .route(r -> r.path("/order/**")
                         .uri("http://localhost:8082/")
